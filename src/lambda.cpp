@@ -17,10 +17,18 @@ int main() {
 
   int value = 666;
   // Closure with integer value
-  std::function<int()> closure = [value]() -> int {
+  auto closure = [value]() -> int {
     return value / 3;
   };
   std::cout << "closure value = " << closure() << std::endl;
+
+  float fvalue = 0.5f;
+  // Closure with float value by reference
+  auto accumulator = [&fvalue](float multiplayer) {
+    fvalue *= multiplayer;
+  };
+  accumulator(100.0f);
+  std::cout << "accumulated value = " << fvalue << std::endl;
 
   return 0;
 }
