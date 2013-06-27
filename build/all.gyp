@@ -34,84 +34,22 @@
     {
       'target_name': 'auto',
       'type': 'executable',
-      'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE65',
-      'dependencies': [],
-      'defines': [
-        'DEFINE_FOO',
-        'DEFINE_A_VALUE=value',
-      ],
-      'include_dirs': [],
       'sources': [
         '../src/auto.cpp',
-      ],
-      'conditions': [
-        ['OS=="linux"', {
-          'defines': [
-            'LINUX_DEFINE',
-          ],
-          'include_dirs': [
-          ],
-        }],
-        ['OS=="win"', {
-          'defines': [
-            'WINDOWS_SPECIFIC_DEFINE',
-          ],
-        }, { # OS != "win",
-          'defines': [
-            'NON_WINDOWS_DEFINE',
-          ],
-        }]
       ],
     },
     {
       'target_name': 'for',
       'type': 'executable',
-      'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE65',
-      'dependencies': [],
-      'defines': [
-        'DEFINE_FOO',
-        'DEFINE_A_VALUE=value',
-      ],
-      'include_dirs': [],
       'sources': [
         '../src/for.cpp',
-      ],
-      'conditions': [
-        ['OS=="linux"', {
-          'defines': [
-            'LINUX_DEFINE',
-          ],
-          'include_dirs': [
-          ],
-        }],
-        ['OS=="win"', {
-          'defines': [
-            'WINDOWS_SPECIFIC_DEFINE',
-          ],
-        }, { # OS != "win",
-          'defines': [
-            'NON_WINDOWS_DEFINE',
-          ],
-        }]
       ],
     },
     {
       'target_name': 'lambda',
       'type': 'executable',
-      'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE65',
-      'defines': [
-        'DEFINE_FOO',
-      ],
-      'include_dirs': [],
       'sources': [
         '../src/lambda.cpp',
-      ],
-      'conditions': [
-        ['OS=="linux"', {
-        }],
-        ['OS=="win"', {
-        }, { # OS != "win",
-        }]
       ],
     },
   ],
