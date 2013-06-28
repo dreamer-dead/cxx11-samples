@@ -34,6 +34,7 @@
     {
       'target_name': 'auto',
       'type': 'executable',
+      'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE60',
       'sources': [
         '../src/auto.cpp',
       ],
@@ -41,6 +42,7 @@
     {
       'target_name': 'for',
       'type': 'executable',
+      'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE61',
       'sources': [
         '../src/for.cpp',
       ],
@@ -48,8 +50,17 @@
     {
       'target_name': 'lambda',
       'type': 'executable',
+      'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE62',
       'sources': [
         '../src/lambda.cpp',
+      ],
+    },
+    {
+      'target_name': 'features',
+      'type': 'executable',
+      'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE63',
+      'sources': [
+        '../src/features.cpp',
       ],
     },
   ],
