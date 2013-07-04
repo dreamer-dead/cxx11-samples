@@ -1,0 +1,41 @@
+Feature name       | Status
+----------------------------------
+Variadic templates - partially
+Initializer lists - no
+static_assert - yes
+auto - yes
+Trailing return types - no
+Lambdas - yes
+decltype - yes
+Right angle brackets no
+Default template arguments for function templates no
+Extern templates no
+nullptr no
+Strongly typed enums no
+Forward declared enums no
+Alignment no
+Delegating constructors no
+Explicit conversion operators no
+Raw string literals no
+Standard-layout and trivial types no
+Extended friend declarations no
+Local and unnamed types as template arguments no
+Range-based for-loop no
+override and final no
+Minimal GC support no
+ref-qualifiers No
+Non-static data member initializers No
+Expression SFINAE No
+Alias templates No
+Attributes No
+constexpr No
+Inheriting constructors No
+char16_t No
+Unicode string literals No
+Universal character names in literals No
+User-defined literals No
+Defaulted and deleted functions No
+Extended No
+Inline namespaces No
+Unrestricted unions No
+noexcept No
